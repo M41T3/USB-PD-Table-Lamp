@@ -1,12 +1,12 @@
 # Table Lamp with USB PD Light Controller
 
-![lamp](images\lamp_1.jpeg)
+![lamp](images/lamp_1.jpeg)
 
 ## Contents
 
 - Light controller PCB design
-    - [Schematics](light_controller_pcb\light_controller_base\schematics.pdf)
-    - [PCB design](light_controller_pcb\light_controller_base\pcb.pdf)
+    - [Schematics](light_controller_pcb/light_controller_base/schematics.pdf)
+    - [PCB design](light_controller_pcp/light_controller_base/pcb.pdf)
     - KiCad project
     - JLCPCB production files
 - CAD designs (FreeCAD projects)
@@ -18,7 +18,7 @@
 
 The objective was to develop a controller for various light sources that is powered via USB Power Delivery. The circuit board should be configurable using jumpers. The circuit board should be configurable using jumpers. 
 
-![pcb](light_controller_pcb\light_controller_base\light_controller_base_side.png)
+![pcb](light_controller_pcb/light_controller_base/light_controller_base_side.png)
 
 ### Features
 - Configure output voltage and current 
@@ -60,43 +60,43 @@ The lamp's base was made of concrete. To do this, a mold was designed and printe
 
 The mold is designed so that it can be taken apart into separate pieces after curing.
 
-![inner mould](images\mould_2.jpeg)
+![inner mould](images/mould_2.jpeg)
 
 The seams are sealed with hot glue.
 
-![complete mould](images\mould_1.jpeg)
+![complete mould](images/mould_1.jpeg)
 
 The liquid concrete is poured into the mold up to the top edge:
 
-![filled mould](images\mould_3.jpeg)
+![filled mould](images/mould_3.jpeg)
 
 ### Box of Shame
 To be honest, it took three attempts with different modifications to the base design before I was able to get the concrete piece out of the mold in one piece...
 
-![box of shame](images\shame_shame_shame.jpeg)
+![box of shame](images/shame_shame_shame.jpeg)
 
 ### Base installations
 
 To position the light source in the right spot, a 3D-printed bracket is screwed onto the circuit board: 
 
-![pcb backside](images\pcb_with_mount.jpeg)
+![pcb backside](images/pcb_with_mount.jpeg)
 
 PCB, potentiomenter, knob and magnets are installed to the base:
 
-![pcb in base](images\pcb_in_base.jpeg)
+![pcb in base](images/pcb_in_base.jpeg)
 
 Backside: 
 
-![pcb backside](images\backside.jpeg)
+![pcb backside](images/backside.jpeg)
 
 
 ## 3. Shade
 
 The lamp base was designed so that the light shade can be attached using magnets. This means the shade can be easily swapped out. This shade was designed so that it can be 3D-printed in vase mode.
 
-![shade](images\shade_2.jpeg)
-![shade detailed](images\shade_1.jpeg)
+![shade](images/shade_2.jpeg)
+![shade detailed](images/shade_1.jpeg)
 
 ## 4. Light it up!
 
-![lamp gif](images\lamp.gif)
+![lamp gif](images/lamp.gif)
