@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP HUSB238
+D USB Type-C Power Delivery Sink
+K
+F https://en.hynetek.com/uploadfiles/site/219/news/4459b599-ce6b-4d92-83cc-13212cca0672.pdf
+$ENDCMP
+#
+$CMP AONR21307
+D 30V P-Channel MOSFET
+K
+F http://www.aosmd.com/pdfs/datasheet/AONR21307.pdf
+$ENDCMP
+#
+$CMP LMC555CMX_NOPB
+D Worlds smallest 555 timer with low power, high accuracy and a Fmax of 3MHz
+K
+F http://www.ti.com/lit/gpn/lmc555
+$ENDCMP
+#
+$CMP husb238a
+D Hynetek Semiconductor Co., Ltd.Voltage3 V to 5.5 V,Operating Temperature Range (Junction)-40 C to 125 C
+K
+F https://www.hynetek.com/uploadfiles/site/219/news/24322c00-2276-4d74-98db-c74432318210.pdf
+$ENDCMP
+#
+$CMP TPS54302DDCR
+D Conv DC-DC 4.5V to 28V Synchronous Step Down Single-Out 0.6V to 26V 3A 6-Pin TSOT-23 T/R
+K
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps54302
+$ENDCMP
+#
+$CMP PAM2861CBR
+D Step-down LED Driver 1MHz 40V 1A SOT89-5 DiodesZetex PAM2861CBR LED Driver IC, 6  40 V dc 1A 6-Pin SOT-89
+K
+F https://www.diodes.com//assets/Datasheets/PAM2861.pdf
+$ENDCMP
+#
+$CMP 1803426
+D PCB header, nominal cross section: 1.5 mm?, color: green, nominal current: 8 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, number of connections: 2, product range: MCV 1,5/..-G, pitch: 3.81 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.4 mm, Stecksystem: MINI COMBICON, Locking: without, type of packaging: packed in cardboard
+K
+F http://www.phoenixcontact.com/de/produkte/1803426/pdf
+$ENDCMP
+#
+$CMP SMBJ33A
+D ON SEMICONDUCTOR - SMBJ33A - DIODE, TVS, 33V, 600W, SMB
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/0500f9b2f473b6dccef01729b487fb9b.pdf
+$ENDCMP
+#
+$CMP SMF33A
+D ESD Suppressors / TVS Diodes TVS, SOD-123FL,  150C,  200W, Unidir
+K
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library
