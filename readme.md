@@ -16,11 +16,22 @@
 
 ## 1. PCB design
 
-The objective was to develop a controller for various light sources that is powered via USB Power Delivery. The circuit board should be configurable using jumpers. The circuit board should be configurable using jumpers. 
+The objective was to develop a highly configurable controller for various light sources that is powered via USB Power Delivery.
 
 ![pcb](light_controller_pcb/light_controller_base/light_controller_base_side.png)
 
-### Features
+### Operation Modes
+
+The operating mode can be configured using jumpers and potentiomenter wiring: 
+
+1. Switch VBUS power and dimm light via PMW
+2. Switch VBUS power and dimm light via constant current source
+3. Low Side Switch and dimm light via PWM
+4. Simple ON/OFF with disabled USB PD (5 V)
+5. Switch VBUS power and fixed output current (set with jumpers)
+
+
+### Noteable Features
 - Configure output voltage and current 
     - Voltage: 5 V, 9 V, 12 V, 15 V, 20 V, 28 V
     - Current: 1.25 A - 3.25 A
@@ -51,6 +62,11 @@ The objective was to develop a controller for various light sources that is powe
 #### Step-Down Converter ([TPS54302](https://www.ti.com/lit/ds/symlink/tps54302.pdf))
 
 - Converts variable VUSB voltage to 5 V to supply 555 timer and constant current control
+
+
+#### 100 kOhm Potentiometer with Rotary Switch ([WSFA202-A2-08-30F1](https://asset.conrad.com/media10/add/160267/c1/-/en/000441431DS01/tehnicni-podatki-441431-potenciometer-z-10-a-stikalomweltron-wsfa202-a2-08-30f1-10k-20-lin-10-kiloohmov-002045040444.pdf))
+
+
 
 ## 2. Concrete Lamp Base
 
@@ -85,7 +101,7 @@ PCB, potentiomenter, knob and magnets are installed to the base:
 
 ![pcb in base](images/pcb_in_base.jpeg)
 
-Backside: 
+Bottom: 
 
 ![pcb backside](images/backside.jpeg)
 
@@ -98,5 +114,7 @@ The lamp base was designed so that the light shade can be attached using magnets
 ![shade detailed](images/shade_1.jpeg)
 
 ## 4. Light it up!
+
+Operating Mode: Switch VBUS and dimm light via PWM with potentiometer
 
 ![lamp gif](images/lamp.gif)
